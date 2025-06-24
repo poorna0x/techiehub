@@ -1,0 +1,143 @@
+.community {
+    width: 24vw;
+    box-shadow: 0px 0px 2px;
+    height: 90vh;
+    border-radius: 2px 0px 0px 0px;
+    position: fixed;
+    top: 10;
+    padding: 5vh 2vw;
+    overflow: auto;
+    margin-left: 0vw;
+    margin-right: 1vw;
+}
+
+.box {
+    text-align: left;
+    width: 24vw;
+    position: fixed;
+    background-color: #000000;
+    z-index: 10;
+    top: 20;
+    padding-left: 5px;
+    padding-top: 1.6vh;
+    border-radius: 2px;
+    padding-bottom: 1.2vh;
+    margin-left: -2.1vw;
+    margin-top: -5vh;
+    height: 9.5vh;
+
+}
+
+h1 {
+    display: inline;
+    font-size: 33px;
+}
+
+.iconButton {
+    margin-left: 100px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 26px;
+    color: #f2eeee;
+}
+
+.iconButton:hover {
+    font-size: 28px;
+}
+
+.chats {
+    margin-top: 6vh;
+    margin-left: -2.6vh;
+    width: 23vw;
+    top: 50;
+    position: relative;
+}
+
+@media screen and (max-width:600px) {
+    .community {
+        display: none;
+    }
+}
+
+.community::-webkit-scrollbar {
+    display: none;
+}
+
+.commhead {
+    font-size: 2.5vw;
+    margin-left: 1vw;
+    margin-right: -2vw;
+    margin-bottom: 1vw;
+    font-family: emoji;
+    background: #5bf7f1;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+
+
+/* Improved Add Community Modal Styles */
+.modalContent {
+  background: linear-gradient(135deg, #181c20 60%, #23272b 100%);
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  border-radius: 22px;
+  width: 350px;
+  max-width: 90vw;
+  margin: 0 auto;
+  margin-top: 120px;
+  text-align: center;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  color: #fff;
+}
+.modalContent h2 {
+  color: #00cfff;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.modalContent label {
+  display: block;
+  margin-bottom: 0.7rem;
+  color: #fff;
+  font-size: 1.1rem;
+  text-align: left;
+}
+.modalContent input[type="text"] {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background: #23272b;
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  outline: none;
+  transition: border 0.2s;
+}
+.modalContent input[type="text"]:focus {
+  border: 2px solid #00cfff;
+}
+.saveNDcancel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1.2rem;
+}
+.modalContent .MuiButton-root {
+  background: linear-gradient(90deg, #00cfff 0%, #5a8dee 100%) !important;
+  color: #fff !important;
+  border-radius: 7px !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  box-shadow: none !important;
+  padding: 0.6rem 1.5rem !important;
+  transition: opacity 0.2s;
+}
+.modalContent .MuiButton-root:hover {
+  opacity: 0.85;
+}
+
